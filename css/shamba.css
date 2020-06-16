@@ -1,0 +1,65 @@
+body {
+    
+}
+
+.container {
+    display: grid;
+    
+}
+
+.header {
+    grid-area: 1/1/2/4;
+    margin: auto;
+    
+      
+}
+
+.nav {
+    grid-area: 1/4/2/span 6;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav li {
+    text-align: right;
+    list-style-type: none;
+    
+}
+
+
+.section {
+    grid-area: 3/1/5/span 9;
+    background-color: chartreuse
+}
+
+.article {
+    grid-area: 5/1/9/span 9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    
+}
+
+.box 1 {
+    border: 1px solid red;
+     
+}
+
+.box 2 {
+    
+}
+.box 3 {
+     
+}
+.box 4 {
+     
+}
+
+.footer {
+    grid-area: 9/1/10/span 9;
+    background-color: cyan
+}
+
+    
+
